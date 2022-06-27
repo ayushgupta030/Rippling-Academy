@@ -1,0 +1,15 @@
+.element{
+    display:inline-grid;
+    place-items: center;
+    grid-template-columns: 50px 100px 100px 50px 50px;
+    column-gap:50px;
+    justify-content: center;
+    border-bottom: 1px solid black;
+}
+.sub-element{
+    text-align:center;
+}
+.head{
+    font-weight: bold;
+    border-top: 1px solid black;
+}
